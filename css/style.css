@@ -36,6 +36,18 @@ header{
     }
 }
 
+@media (min-width: 768px) { 
+    .none{
+        display: none;
+    }
+}
+@media (max-width: 768px) { 
+    .none-2{
+        display: none;
+    }
+}
+
+
 /* main-div2- */
 
 .card-body img{
