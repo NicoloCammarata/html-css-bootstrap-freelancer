@@ -1,3 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.margin0{
+    margin: 0;
+}
 
+header{
+    margin: 0;
+}
+
+.container-sm{
+    width: 80%;
+}
+
+.star{
+    height: 5px;
+    border-radius: 20px;
+    background-color: white;
+}
+.star-nero{
+    height: 5px;
+    border-radius: 20px;
+    background-color: black;
+}
+
+/* main-div1- */
+
+
+
+@media (min-width: 575.98px) { 
+    .container-sm{
+        max-width: 500px;
+    }
+}
+
+/* main-div2- */
+
+.card-body img{
+    width: 50%;
+
+}
 
 
